@@ -32,6 +32,31 @@ const Navbar = () => {
               <i className="fas fa-tachometer-alt"></i>Home
             </NavLink>
           </li>
+          <li className="nav-item active">
+            <NavLink className="navLink" to="/about" exact>
+              <i className="fas fa-tachometer-alt"></i>about
+            </NavLink>
+          </li>
+          <li className="nav-item active">
+            <NavLink className="navLink" to="/service" exact>
+              <i className="fas fa-tachometer-alt"></i>service
+            </NavLink>
+          </li>
+          <li className="nav-item active">
+            <NavLink className="navLink" to="/portfolio" exact>
+              <i className="fas fa-tachometer-alt"></i>portfolio
+            </NavLink>
+          </li>
+          <li className="nav-item active">
+            <NavLink className="navLink" to="/blogs" exact>
+              <i className="fas fa-tachometer-alt"></i>blogs
+            </NavLink>
+          </li>
+          <li className="nav-item active">
+            <NavLink className="navLink" to="/contact" exact>
+              <i className="fas fa-tachometer-alt"></i>contact
+            </NavLink>
+          </li>
         </ul>
       </div>
     </>

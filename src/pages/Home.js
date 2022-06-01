@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="container">
       <h1 className="text-center" style={{ paddingTop: "30%" }}>
-        Home este es l primer elemento
+        Home
       </h1>
     </div>
   );
