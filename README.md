@@ -72,5 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### 'install for react'
 
-Bootstrap
+
 react-router-dom
+styled-components react-icons
