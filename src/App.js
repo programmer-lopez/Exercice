@@ -7,7 +7,8 @@ import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
-import Services from "./pages/Services";
+import Experience from "./pages/Experience";
+import "./App.css";
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
             <Route path="/about" element={<About />} />
           </Routes>
           <Routes>
-            <Route path="/service" element={<Services />} />
+            <Route path="/experience" element={<Experience />} />
           </Routes>
           <Routes>
             <Route path="/portfolio" element={<Portfolio />} />

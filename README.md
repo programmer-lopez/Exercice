@@ -74,4 +74,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 react-router-dom
-styled-components react-icons
+react-icons
