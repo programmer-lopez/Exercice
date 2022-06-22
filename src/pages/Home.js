@@ -1,17 +1,74 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { DiReact } from "react-icons/di";
 
 import "../styles/Home.css";
-import logo from "../imagenes/logo.jpg";
+/*import logo from "../imagenes/logo.jpg";*/
 
 const Home = () => {
+  const videoEl = useRef(null);
+
+  const attemptPlay = () => {
+    videoEl &&
+      videoEl.current &&
+      videoEl.current.play().catch((error) => {
+        console.error("Error en Iniciar", error);
+      });
+  };
+
+  useEffect(() => {
+    attemptPlay();
+  }, []);
+
   return (
     <div className="home" id="">
-    <div className="home__bg">
-      <div className="header d__flex align__items__center pxy__30">
+    <video
+              playsInline
+              loop
+              muted
+              alt="All the devices"
+              src="https://stream.mux.com/6fiGM5ChLz8T66ZZiuzk1KZuIKX8zJz00/medium.mp4"
+              ref={videoEl}
+            />
+      <div className="home__bg">
+        <div className="container">
+          <div className="home__content">
+          <div className="home__video">            
+            </div>
+            <div className="home__overlay"></div>
+            <div class="home__Iam">
+
+            
+            
+              <p>
+                CODE <DiReact />{" "}
+              </p>
+              <b>
+                <div class="innerIam">
+                  WELCOME
+                  <br />
+                  HI, MY NAME IS MARCOS
+                  <br />
+                  JS DEVELOPER
+                  <br />
+                  BASED IN MÉXICO
+                  <br />
+                  AS PLAY WITH MY SON
+                </div>
+              </b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Home;
+
+/*<div className="header d__flex align__items__center pxy__30">
         <div className="logo">
           <img src={logo} alt="" />
         </div>
-        {/* Pauta */}
         <div className="navigation pxy__30">
           <ul className="navbar d__flex">
             <a href="#Home">
@@ -35,20 +92,4 @@ const Home = () => {
           </ul>
         </div>
       </div>
-      <div className="container">
-        <div className="home__content">
-          <div className="home__meta">
-            <h1 className="home__text pz__10">WELCOME</h1>
-            <h2 className="home__text pz__10">HI, MY NAME IS MARCOS</h2>
-            <h3 className="home__text sweet px__10">Js Developer</h3>
-            <h4 className="home__text pz__10"> Based in México</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-);
-}
-
-
-export default Home;
+      */
