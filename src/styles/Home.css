@@ -16,11 +16,11 @@ video {
   left: 0;
   background: #5A5A5A;
   z-index: 0;
-  opacity: 1;
+  opacity: .67;
 }
 
 .home__code {
-  position: static;
+  position: relative;
 }
 
 /*Animacion Iam*/
@@ -74,6 +74,17 @@ video {
   -o-animation-delay: 1s;
   animation-delay: 1s;
 }
+img {
+  border-radius: 50%;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+
+
+
+
+
 
 @keyframes move {
   0% {
