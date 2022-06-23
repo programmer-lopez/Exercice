@@ -1,22 +1,26 @@
 /*Video__Home*/
-video{
+video {
   max-width: 1800px;
   width: 100%;
   height: 100vh;
   margin: 0 auto;
-  z-index: -1 ;
+  z-index: -1;
   position: absolute;
 }
 
-.home__overlay{
+.home__overlay {
   height: 100vh;
   width: 100%;
   position: absolute;
-  top: 0;
+  top: 1;
   left: 0;
   background: #5A5A5A;
   z-index: 0;
-  opacity: .70;
+  opacity: 1;
+}
+
+.home__code {
+  position: static;
 }
 
 /*Animacion Iam*/
@@ -26,6 +30,7 @@ video{
   color: white;
   z-index: 1;
 }
+
 .home__Iam p {
   font-size: 40px;
   height: 60px;
@@ -33,6 +38,7 @@ video{
   margin-right: 0.3em;
   display: block;
 }
+
 .home__Iam b {
   float: left;
   overflow: hidden;
@@ -40,6 +46,7 @@ video{
   height: 50px;
   top: 40px;
 }
+
 .home__Iam .innerIam {
   display: inline-block;
   color: #fff;
@@ -67,19 +74,24 @@ video{
   -o-animation-delay: 1s;
   animation-delay: 1s;
 }
+
 @keyframes move {
   0% {
     top: 0px;
   }
+
   20% {
     top: -50px;
   }
+
   40% {
     top: -100px;
   }
+
   60% {
     top: -150px;
   }
+
   80% {
     top: -200px;
   }
@@ -89,66 +101,85 @@ video{
   0% {
     top: 0px;
   }
+
   20% {
     top: -50px;
   }
+
   40% {
     top: -100px;
   }
+
   60% {
     top: -150px;
   }
+
   80% {
     top: -200px;
   }
 }
+
 @-moz-keyframes move {
   0% {
     top: 0px;
   }
+
   20% {
     top: -50px;
   }
+
   40% {
     top: -100px;
   }
+
   60% {
     top: -150px;
   }
+
   80% {
     top: -200px;
   }
 }
+
 @-o-keyframes move {
   0% {
     top: 0px;
   }
+
   20% {
     top: -50px;
   }
+
   40% {
     top: -100px;
   }
+
   60% {
     top: -150px;
   }
+
   80% {
     top: -200px;
   }
 }
+
 @keyframes move {
   0% {
     top: 0px;
   }
+
   20% {
     top: -50px;
   }
+
   40% {
     top: -100px;
   }
+
   60% {
     top: -150px;
   }
+
   80% {
     top: -200px;
   }

@@ -21,25 +21,22 @@ const Home = () => {
 
   return (
     <div className="home" id="">
-    <video
-              playsInline
-              loop
-              muted
-              alt="All the devices"
-              src="https://stream.mux.com/6fiGM5ChLz8T66ZZiuzk1KZuIKX8zJz00/medium.mp4"
-              ref={videoEl}
-            />
+      <video
+        playsInline
+        loop
+        muted
+        alt="All the devices"
+        src="https://stream.mux.com/6fiGM5ChLz8T66ZZiuzk1KZuIKX8zJz00/medium.mp4"
+        ref={videoEl}
+      />
       <div className="home__bg">
         <div className="container">
           <div className="home__content">
-          <div className="home__video">            
+            <div className="home__video">
             </div>
             <div className="home__overlay"></div>
             <div class="home__Iam">
-
-            
-            
-              <p>
+              <p className="home__code">
                 CODE <DiReact />{" "}
               </p>
               <b>
