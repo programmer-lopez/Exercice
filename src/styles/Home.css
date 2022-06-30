@@ -16,7 +16,7 @@ video {
   left: 0;
   background: #5A5A5A;
   z-index: 0;
-  opacity: .67;
+  opacity: .40;
 }
 
 .home__code {
@@ -74,7 +74,8 @@ video {
   -o-animation-delay: 1s;
   animation-delay: 1s;
 }
-img {
+
+.home__img {
   border-radius: 50%;
   position: relative;
   margin-top: 5%;

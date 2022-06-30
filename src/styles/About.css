@@ -1,4 +1,6 @@
-img.about__img{
-    background-size: cover;
-    
+.about__heading{
+    text-align: center;
+}
+.about__img{
+    border-radius: 8%;
 }

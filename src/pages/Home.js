@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { DiReact } from "react-icons/di";
 
 import "../styles/Home.css";
-import  img from "../imagenes/Photo__Perfil.jpeg"
+import img from "../imagenes/Photo__Perfil.jpeg"
 /*import logo from "../imagenes/logo.jpg";*/
 
 const Home = () => {
@@ -54,9 +54,7 @@ const Home = () => {
                 </div>
               </b>
             </div>
-            <div className="home__img">
-            <img src={img}alt="Paris" width="300" height="300"></img>
-            </div>
+            <img className="home__img" src={img} alt="Paris" width="300" height="300"></img>
           </div>
         </div>
       </div>
