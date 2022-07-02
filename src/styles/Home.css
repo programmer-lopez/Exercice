@@ -16,7 +16,7 @@ video {
   left: 0;
   background: #5A5A5A;
   z-index: 0;
-  opacity: .40;
+  opacity: .70;
 }
 
 .home__code {
@@ -25,9 +25,9 @@ video {
 
 /*Animacion Iam*/
 .home__Iam {
-  padding: 2em 5em;
+  padding: 3em 8em;
   font: normal 40px/50px Montserrat, sans-serif;
-  color: white;
+  color: #fff;
   z-index: 1;
 }
 
