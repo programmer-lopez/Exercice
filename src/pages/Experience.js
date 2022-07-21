@@ -79,8 +79,7 @@ const Experience = () => {
             <div className="service__box pointer">
               <div className="service__meta">
                 <p className="service__text service__date">
-                - Septiembre 2013 - Marzo 2018 
-                Conectando github
+                  - Sep 2013 - Marzo 2018
                 </p>
               </div>
             </div>
@@ -88,20 +87,20 @@ const Experience = () => {
           <div className="col__2">
             <div className="service__box pointer">
               <h1 className="service__text">
-              TECNOLOGICO DE ESTUDIOS SUPERIORES DE IXTAPALUCA
+                TESI (tecnologico de estudios superiores de ixtapaluca.)
               </h1>
               <p className="compania service__text p__color">
-                  Ingeniería en Sistemas Computacionales 
-                </p>
-                <p className="p service__text p__color">
-                  -Organización y Funcionamiento de toda la estructura computacional.
-                </p>
-                <p className="p service__text p__color">
-                  -Me instruí conociendo los componentes principales en software y hardware.
-                </p>
-                <p className="p service__text p__color">
-                  - Analizar situaciones con el fin de conocer y solucionar complejidades en el sistema de cómputo.
-                </p>
+                Ingeniería en Sistemas Computacionales
+              </p>
+              <p className="p service__text p__color">
+                -Organización y Funcionamiento de toda la estructura computacional.
+              </p>
+              <p className="p service__text p__color">
+                -Me instruí conociendo los componentes principales en software y hardware.
+              </p>
+              <p className="p service__text p__color">
+                - Analizar situaciones con el fin de conocer y solucionar complejidades en el sistema de cómputo.
+              </p>
             </div>
           </div>
         </div>
@@ -109,53 +108,30 @@ const Experience = () => {
 
       <div className="container">
         <div div className="row">
-
-          <div className="col__3">
+          <div className="col__2">
             <div className="service__box pointer">
               <div className="service__meta">
-                <h1 className="service__text">
-                  TECNOLOGICO DE ESTUDIOS SUPERIORES DE IXTAPALUCA
-                </h1>
-                <p className="compania service__text p__color">
-                  Ingeniería en Sistemas Computacionales - Septiembre 2013 - Marzo
-                  2018
-                </p>
-                <p className="p service__text p__color">
-                  -Organización y Funcionamiento de toda la estructura
-                  computacional.
-                </p>
-                <p className="p service__text p__color">
-                  -Me instruí conociendo los componentes principales en software y
-                  hardware.
-                </p>
-                <p className="p service__text p__color">
-                  - Analizar situaciones con el fin de conocer y solucionar
-                  complejidades en el sistema de cómputo.
+                <p className="service__text service__date">
+                  - Julio 2010 - Agosto 2013
                 </p>
               </div>
             </div>
           </div>
-
-          <div className="col__3">
+          <div className="col__2">
             <div className="service__box pointer">
-              <div className="service__meta">
-                <h1 className="service__text">
-                  COLEGIO DE BACHILLERES DEL ESTADO DE OAXACA
-                </h1>
-                <p className="compania service__text p__color">
-                  Administración de Empresas - Julio 2010 - Agosto 2013
-                </p>
-                <p className="p service__text p__color">
-                  -Aprendí la organización, planeación, y análisis de situaciones
-                  con el fin de beneficiar a la empresa.
-                </p>
-                <p className="p service__text p__color">
-                  -Observación y Supervisión al planear alguna actividad.
-                </p>
-                <p className="p service__text p__color">
-                  -Administración, dirección y gestión de empresas.
-                </p>
-              </div>
+              <h1 className="service__text">
+                COBAO (COLEGIO DE BACHILLERES DEL ESTADO DE OAXACA)
+              </h1>
+              <p className="p service__text p__color">
+                -Aprendí la organización, planeación, y análisis de situaciones
+                con el fin de beneficiar a la empresa.
+              </p>
+              <p className="p service__text p__color">
+                -Observación y Supervisión al planear alguna actividad.
+              </p>
+              <p className="p service__text p__color">
+                -Administración, dirección y gestión de empresas.
+              </p>
             </div>
           </div>
         </div>
